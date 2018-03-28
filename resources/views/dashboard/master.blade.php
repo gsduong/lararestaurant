@@ -14,7 +14,7 @@
     <link href="css/material-dashboard.css?v=1.2.0" rel="stylesheet" />
     <!--     Fonts and icons     -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -173,7 +173,7 @@
                             document.write(new Date().getFullYear())
                         </script>
                         Theme by
-                        <a href="http://www.creative-tim.com">Creative Tim</a>
+                        <a href="https://www.creative-tim.com">Creative Tim</a>
                     </p>
                 </div>
             </footer>

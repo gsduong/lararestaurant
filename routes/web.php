@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return redirect('dashboard.html');
+    return view('welcome-default');
 });
 
 Route::get('/dashboard.html', ['as' => 'dashboard', function () {
@@ -42,3 +42,8 @@ Route::get('/typography.html', ['as' => 'typography', function () {
 Route::get('/user.html', ['as' => 'user', function () {
     return view('dashboard.user');
 }]);
+
+/* For socialite */
+Route::get('/social-auth/{provider}', 'Auth\SocialController@redirectToProvider')->name('auth.social');
+
+Route::get('/social-auth/{provider}/callback', 'Auth\SocialController@handleProviderCallback')->name('auth.social.callback');
